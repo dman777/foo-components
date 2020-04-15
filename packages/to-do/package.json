@@ -1,0 +1,34 @@
+{
+  "name": "@dman777/to-do",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "darin hensley <darin.hensley@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/to-do.js",
+  "module": "lib/to-do.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "/lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dman777/foo-components.git",
+    "directory": "packages/to-do"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "lit-element": "^2.3.0",
+    "lit-html": "^1.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

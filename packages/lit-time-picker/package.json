@@ -1,0 +1,31 @@
+{
+  "name": "@dman777/lit-time-picker",
+  "version": "3.0.0",
+  "description": "a time picker web component made with lit element",
+  "author": "darin.hensley@gmail.com",
+  "license": "ISC",
+  "main": "src/lit-time-picker.js",
+  "module": "src/lit-time-picker.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+   "files": [
+    "/src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dman777/foo-components.git",
+    "directory": "packages/lit-time-picker"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@material/mwc-button": "^0.14.1",
+    "@material/mwc-icon-button": "^0.14.1",
+    "@material/mwc-textfield": "^0.15.0",
+    "lit-element": "^2.3.1",
+    "moment": "^2.24.0"
+  }
+}

@@ -1,11 +1,2 @@
-# `@dman777/to-do`
+this is just a place holder. Nothing to use here.
 
-> TODO: description
-
-## Usage
-
-```
-const todo = require('@dman777/to-do');
-
-// TODO: DEMONSTRATE API
-```

@@ -1,6 +1,6 @@
 {
   "name": "@dman777/lit-time-picker",
-  "version": "3.1.2",
+  "version": "4.0.0",
   "description": "a time picker web component made with lit element",
   "author": "darin.hensley@gmail.com",
   "license": "ISC",

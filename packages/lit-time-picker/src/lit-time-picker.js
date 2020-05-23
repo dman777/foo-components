@@ -183,8 +183,8 @@ class TimePicker extends LitElement {
     this._timeDateStamp = value;
     const momentObj = moment(value).local();
     this.hour = momentObj.format('hh');
-    this.minutes =  momentObj.minutes();
-    this.seconds =  momentObj.seconds();
+    this.minutes =  momentObj.format('mm');
+    this.seconds =  momentObj.format('ss');
     this.meridian = momentObj.format('A');
     this.fireTimeChangeEvent();
   }

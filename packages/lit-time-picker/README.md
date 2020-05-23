@@ -1,10 +1,10 @@
-# lit-element-starter-kit
+## lit-time-picker
 
 Web component time picker written in lit element. This was originally developed as a proof of concept, but due to the popularity of it I will continue development of it.
 
-###### To do: Add custom styling properties. 
+###### To do: Add custom styling properties.
 
-##### Usage 
+##### Usage
 
 ```html
 <head>
@@ -24,16 +24,16 @@ Web component time picker written in lit element. This was originally developed 
 
 ###### Note: `<lit-time-picker on-time-changed="_doSomethingWithNewTime"></lit-time-picker>` will default to current time
 
-##### properties 
-`time-date-stamp` set the time date of the component. Must be in ISO format(don't worry, it will convert to local meridiem time). 
+##### properties
+`time-date-stamp` set the time date of the component. Must be in ISO format(don't worry, it will convert to local meridiem time).
 
 ##### events
-`time-changed` return object containing ISO format and also moment object for any time mutation. 
+`time-changed` return object containing ISO format and also moment object for any time mutation.
 
-###### event object: 
+###### event object:
 
 ```javascript
-detail: 
+detail:
   momentObj: Moment {_isAMomentObject: true, _i: "2020-05-03T06:33:21.511Z", _f: "YYYY-MM-DDTHH:mm:ss.SSSSZ", _tzm: 0, _isUTC: false, …}
   timeStampISO: "2020-05-03T06:33:21.511Z"
 ```

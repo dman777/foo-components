@@ -28,6 +28,21 @@
     "lit-element": "^2.3.1",
     "moment": "^2.24.0"
   },
+  "keywords": [
+    "lit",
+    "lit-element",
+    "litElement",
+    "polymer",
+    "web-components",
+    "webComponents",
+    "webcomponents",
+    "polymer",
+    "time-picker",
+    "time",
+    "moment",
+    "meridian",
+    "timePicker"
+  ],
   "publishConfig": {
     "access": "public"
   }

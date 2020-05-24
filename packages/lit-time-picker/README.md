@@ -2,7 +2,7 @@
 
 Web component time picker written in lit element. This was originally developed as a proof of concept, but due to the popularity of it I will continue development of it.
 
-![Image of lit-time-picker](https://imgur.com/a/hNJPt5N)
+![Imgur](https://i.imgur.com/dueROg0.png)
 
 ###### To do: Add custom styling properties.
 
